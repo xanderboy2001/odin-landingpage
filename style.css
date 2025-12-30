@@ -83,23 +83,66 @@ a {
     padding: 64px 128px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    /* align-items: center; */
+}
+
+.quote,
+.quote-author {
+    width: 900px;
+    color: #1f2937;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
-    color: #1f2937;
     font-style: italic;
     word-wrap: normal;
-    width: 900px;
     text-align: center;
 }
 
 .quote-author {
-    text-align: right;
+    text-align: end;
     font-weight: 900;
+}
+
+.action-banner {
+    background-color: #3882f6;
+    margin: 64px 128px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    margin: 32px 64px;
+}
+
+.action-title {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.action-message {
+    font-size: 14px;
+}
+
+.action-button-box {
+    display: flex;
+    align-items: center;
+    margin: 32px 64px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0px;
 }
 
 span {
@@ -115,7 +158,17 @@ button {
     width: 100px;
     height: 25px;
     border-radius: 5px;
+    /* border-color: white; */
     margin: 8px 0px;
+}
+
+button.hero-button {
+    border-style: none;
+}
+
+button.action-button {
+    border-color: #f9faf8;
+    border-style: solid;
 }
 
 img {
