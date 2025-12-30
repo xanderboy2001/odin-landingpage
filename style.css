@@ -64,6 +64,7 @@ a {
     display: flex;
     gap: 48px;
     justify-content: center;
+    padding-bottom: 64px;
 }
 
 .card {
@@ -75,6 +76,30 @@ a {
     font-size: 14px;
     color: #8c8c8b;
     gap: 8px;
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+    padding: 64px 128px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    word-wrap: normal;
+    width: 900px;
+    text-align: center;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 900;
 }
 
 span {
